@@ -1,0 +1,912 @@
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-09-15 14:34:16,423 - INFO - START data_discovery =============================================
+2023-09-15 14:34:16,423 - INFO - START data_discovery Start Time = 2023-09-15 14:34:16
+2023-09-15 14:34:16,423 - INFO - data_discovery Step 0 - Initialize the configuration file parser
+2023-09-15 14:34:16,445 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\josep\\anaconda3\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2023-09-15 14:34:16,446 - INFO - Using writeable comtypes cache directory: 'C:\Users\josep\anaconda3\lib\site-packages\comtypes\gen'
+2023-09-15 14:34:22,073 - INFO - Process data_discovery Step 0 - Initializing and starting Process.
+2023-09-15 14:35:17,741 - INFO - Step 1 - Establish the root Directory
+2023-09-15 14:35:17,741 - INFO - The root directory to walk is : C:\Data
+2023-09-15 14:35:34,381 - INFO - Step 2 - Walk the directory structure  to discover all data directories
+2023-09-15 14:35:34,396 - INFO - Registering Directory # 0 C:\Data  
+2023-09-15 14:35:34,398 - INFO - Registering Directory # 1 C:\Data\Behavioral Health  
+2023-09-15 14:35:34,399 - INFO - Registering Directory # 2 C:\Data\brfss_cdc  
+2023-09-15 14:35:34,400 - INFO - Registering Directory # 3 C:\Data\Chronic Kidney Disease  
+2023-09-15 14:35:34,401 - INFO - Registering Directory # 4 C:\Data\Chronic_Disease_Indicators  
+2023-09-15 14:35:34,402 - INFO - Registering Directory # 5 C:\Data\Data_Science_Data  
+2023-09-15 14:35:34,403 - INFO - Registering Directory # 6 C:\Data\Data_Science_Data\Projects  
+2023-09-15 14:35:34,404 - INFO - Registering Directory # 7 C:\Data\Data_Science_Data\Projects\AIHS  
+2023-09-15 14:35:34,405 - INFO - Registering Directory # 8 C:\Data\Data_Science_Data\Projects\AIHS\Architecture  
+2023-09-15 14:35:34,408 - INFO - Registering Directory # 9 C:\Data\Data_Science_Data\Projects\AIHS\Chatbot Initial Conversation - Botsociety_files  
+2023-09-15 14:35:34,410 - INFO - Registering Directory # 10 C:\Data\Data_Science_Data\Test_Data  
+2023-09-15 14:35:34,411 - INFO - Registering Directory # 11 C:\Data\Data_Science_Data\Test_Data\India Health Stats  
+2023-09-15 14:35:34,412 - INFO - Registering Directory # 12 C:\Data\Data_Science_Data\Test_Data\Medicare  
+2023-09-15 14:35:34,413 - INFO - Registering Directory # 13 C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot  
+2023-09-15 14:35:34,414 - INFO - Registering Directory # 14 C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data  
+2023-09-15 14:35:34,415 - INFO - Registering Directory # 15 C:\Data\Data_Science_Data\Test_Data\nhanes  
+2023-09-15 14:35:34,416 - INFO - Registering Directory # 16 C:\Data\Diabetes  
+2023-09-15 14:35:34,417 - INFO - Registering Directory # 17 C:\Data\Heart  
+2023-09-15 14:35:34,418 - INFO - Registering Directory # 18 C:\Data\lakeview_pdf  
+2023-09-15 14:35:34,418 - INFO - Registering Directory # 19 C:\Data\tableau  
+2023-09-15 14:35:34,420 - INFO - Registering Directory # 20 C:\Data\titanic  
+2023-09-15 14:35:34,422 - INFO - Registering Directory # 21 C:\Data\world health statististics  
+2023-09-15 14:35:34,423 - INFO - Registering Directory # 22 C:\Data\world news data  
+2023-09-15 14:35:34,424 - INFO - Registering Directory # 23 C:\Data\world_cities  
+2023-09-15 14:35:34,425 - INFO - Registering Directory # 24 C:\Data\world_happiness  
+2023-09-15 14:35:34,426 - INFO - Registering Directory # 25 C:\Data\world_indicators  
+2023-09-15 14:35:38,050 - INFO - Step 2 Done - Listing all Registered data Directories: 
+2023-09-15 14:35:43,923 - INFO - Registering Directories in excel File:C:/working_directory/temporary_data/Import_Directory_Registry.xlsx 
+2023-09-15 14:36:46,843 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:36:46,855 - INFO - CSV Total#1 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:36:46,859 - INFO - CSV Total#2 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:36:46,864 - INFO - CSV Total#3 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:36:46,865 - INFO - CSV Total#4 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:36:46,866 - INFO - CSV Total#5 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:36:46,868 - INFO - CSV Total#6 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:36:46,870 - INFO - CSV Total#7 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:36:46,872 - INFO - CSV Total#8 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:36:46,873 - INFO - CSV Total#9 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:36:46,874 - INFO - CSV Total#10 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:36:46,875 - INFO - CSV Total#11 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:36:46,876 - INFO - CSV Total#12 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:36:46,877 - INFO - CSV Total#13 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:36:46,879 - INFO - CSV Total#14 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:36:46,880 - INFO - CSV Total#15 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:36:46,882 - INFO - CSV Total#16 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:36:46,885 - INFO - CSV Total#17 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:36:46,886 - INFO - CSV Total#18 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:36:46,888 - INFO - CSV Total#19 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:36:46,890 - INFO - CSV Total#20 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:36:46,891 - INFO - CSV Total#21 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:36:46,892 - INFO - CSV Total#22 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:36:46,894 - INFO - CSV Total#23 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:36:46,895 - INFO - CSV Total#24 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:36:46,896 - INFO - CSV Total#25 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:36:46,897 - INFO - CSV Total#26 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:36:46,898 - INFO - CSV Total#27 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:36:46,900 - INFO - CSV Total#28 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:36:46,900 - INFO - CSV Total#29 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:36:46,902 - INFO - CSV Total#30 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:36:46,905 - INFO - CSV Total#31 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:36:46,906 - INFO - CSV Total#32 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:36:46,908 - INFO - CSV Total#33 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:36:46,909 - INFO - CSV Total#34 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:36:46,911 - INFO - CSV Total#35 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:36:46,913 - INFO - CSV Total#36 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:36:46,914 - INFO - CSV Total#37 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:36:46,916 - INFO - CSV Total#38 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:36:46,917 - INFO - CSV Total#39 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:36:46,917 - INFO - CSV Total#40 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:36:46,919 - INFO - CSV Total#41 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:36:46,920 - INFO - CSV Total#42 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:36:46,921 - INFO - CSV Total#43 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:36:46,922 - INFO - CSV Total#44 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:36:46,923 - INFO - CSV Total#45 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:36:46,925 - INFO - CSV Total#46 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:36:46,926 - INFO - CSV Total#47 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:36:46,927 - INFO - CSV Total#48 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:36:46,928 - INFO - CSV Total#49 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,929 - INFO - CSV Total#50 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,930 - INFO - CSV Total#51 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:36:46,931 - INFO - CSV Total#52 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:36:46,932 - INFO - CSV Total#53 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:36:46,933 - INFO - CSV Total#54 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:36:46,935 - INFO - CSV Total#55 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:36:46,936 - INFO - CSV Total#56 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,937 - INFO - CSV Total#57 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:36:46,939 - INFO - CSV Total#58 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:36:46,940 - INFO - CSV Total#59 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:36:46,942 - INFO - CSV Total#60 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:36:46,943 - INFO - CSV Total#61 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:36:46,944 - INFO - CSV Total#62 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:36:46,946 - INFO - CSV Total#63 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:36:46,947 - INFO - CSV Total#64 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:36:46,948 - INFO - CSV Total#65 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:36:46,949 - INFO - CSV Total#66 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:36:46,950 - INFO - CSV Total#67 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:36:46,952 - INFO - CSV Total#68 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:36:46,953 - INFO - CSV Total#69 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:36:46,954 - INFO - CSV Total#70 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:36:46,955 - INFO - CSV Total#71 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:36:46,956 - INFO - CSV Total#72 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:36:46,957 - INFO - CSV Total#73 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:36:46,958 - INFO - CSV Total#74 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,959 - INFO - CSV Total#75 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:36:46,961 - INFO - CSV Total#76 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:36:46,962 - INFO - CSV Total#77 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:36:46,963 - INFO - CSV Total#78 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:36:46,964 - INFO - CSV Total#79 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:36:46,965 - INFO - CSV Total#80 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:36:46,966 - INFO - CSV Total#81 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:36:46,968 - INFO - CSV Total#82 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:36:46,969 - INFO - CSV Total#83 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:36:46,970 - INFO - CSV Total#84 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:36:46,972 - INFO - CSV Total#85 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:36:46,973 - INFO - CSV Total#86 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:39:05,373 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:39:05,374 - INFO - CSV Total#87 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:39:05,375 - INFO - CSV Total#88 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:39:05,377 - INFO - CSV Total#89 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:39:05,378 - INFO - CSV Total#90 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:39:05,379 - INFO - CSV Total#91 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:39:05,380 - INFO - CSV Total#92 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:39:05,381 - INFO - CSV Total#93 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:39:05,381 - INFO - CSV Total#94 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:39:05,382 - INFO - CSV Total#95 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:39:05,383 - INFO - CSV Total#96 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:39:05,384 - INFO - CSV Total#97 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:39:05,385 - INFO - CSV Total#98 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:39:05,386 - INFO - CSV Total#99 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:39:05,387 - INFO - CSV Total#100 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:39:05,388 - INFO - CSV Total#101 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:39:05,389 - INFO - CSV Total#102 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:39:05,391 - INFO - CSV Total#103 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:39:05,392 - INFO - CSV Total#104 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:39:05,393 - INFO - CSV Total#105 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:39:05,394 - INFO - CSV Total#106 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:39:05,395 - INFO - CSV Total#107 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:39:05,396 - INFO - CSV Total#108 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:39:05,397 - INFO - CSV Total#109 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:39:05,398 - INFO - CSV Total#110 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:39:05,399 - INFO - CSV Total#111 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:39:05,400 - INFO - CSV Total#112 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:39:05,401 - INFO - CSV Total#113 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:39:05,403 - INFO - CSV Total#114 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:39:05,404 - INFO - CSV Total#115 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:39:05,405 - INFO - CSV Total#116 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:39:05,406 - INFO - CSV Total#117 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:39:05,407 - INFO - CSV Total#118 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:39:05,408 - INFO - CSV Total#119 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:39:05,409 - INFO - CSV Total#120 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:39:05,410 - INFO - CSV Total#121 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:39:05,411 - INFO - CSV Total#122 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:39:05,412 - INFO - CSV Total#123 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:39:05,413 - INFO - CSV Total#124 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:39:05,414 - INFO - CSV Total#125 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:39:05,415 - INFO - CSV Total#126 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:39:05,416 - INFO - CSV Total#127 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:39:05,417 - INFO - CSV Total#128 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:39:05,418 - INFO - CSV Total#129 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:39:05,419 - INFO - CSV Total#130 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:39:05,420 - INFO - CSV Total#131 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:39:05,421 - INFO - CSV Total#132 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:39:05,422 - INFO - CSV Total#133 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:39:05,423 - INFO - CSV Total#134 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:39:05,424 - INFO - CSV Total#135 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,425 - INFO - CSV Total#136 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,426 - INFO - CSV Total#137 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:39:05,427 - INFO - CSV Total#138 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:39:05,428 - INFO - CSV Total#139 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:39:05,429 - INFO - CSV Total#140 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:39:05,430 - INFO - CSV Total#141 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:39:05,431 - INFO - CSV Total#142 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,432 - INFO - CSV Total#143 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:39:05,433 - INFO - CSV Total#144 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:39:05,434 - INFO - CSV Total#145 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:39:05,435 - INFO - CSV Total#146 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:39:05,436 - INFO - CSV Total#147 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:39:05,437 - INFO - CSV Total#148 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:39:05,438 - INFO - CSV Total#149 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:39:05,439 - INFO - CSV Total#150 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:39:05,440 - INFO - CSV Total#151 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:39:05,441 - INFO - CSV Total#152 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:39:05,442 - INFO - CSV Total#153 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:39:05,443 - INFO - CSV Total#154 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:39:05,444 - INFO - CSV Total#155 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:39:05,445 - INFO - CSV Total#156 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:39:05,446 - INFO - CSV Total#157 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:39:05,447 - INFO - CSV Total#158 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:39:05,448 - INFO - CSV Total#159 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:39:05,448 - INFO - CSV Total#160 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,450 - INFO - CSV Total#161 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:39:05,451 - INFO - CSV Total#162 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:39:05,453 - INFO - CSV Total#163 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:39:05,454 - INFO - CSV Total#164 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:39:05,455 - INFO - CSV Total#165 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:39:05,455 - INFO - CSV Total#166 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:39:05,456 - INFO - CSV Total#167 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:39:05,457 - INFO - CSV Total#168 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:39:05,458 - INFO - CSV Total#169 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:39:05,459 - INFO - CSV Total#170 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:39:05,460 - INFO - CSV Total#171 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:39:05,461 - INFO - CSV Total#172 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery The total process duration was:327.53
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Stop Time = 2023-09-15 14:39:43
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:327.53
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2023-09-15 14:39:43,956 - INFO - END data_discovery =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-09-15 14:34:16,423 - INFO - START data_discovery =============================================
+2023-09-15 14:34:16,423 - INFO - START data_discovery Start Time = 2023-09-15 14:34:16
+2023-09-15 14:34:16,423 - INFO - data_discovery Step 0 - Initialize the configuration file parser
+2023-09-15 14:34:16,445 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\josep\\anaconda3\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2023-09-15 14:34:16,446 - INFO - Using writeable comtypes cache directory: 'C:\Users\josep\anaconda3\lib\site-packages\comtypes\gen'
+2023-09-15 14:34:22,073 - INFO - Process data_discovery Step 0 - Initializing and starting Process.
+2023-09-15 14:35:17,741 - INFO - Step 1 - Establish the root Directory
+2023-09-15 14:35:17,741 - INFO - The root directory to walk is : C:\Data
+2023-09-15 14:35:34,381 - INFO - Step 2 - Walk the directory structure  to discover all data directories
+2023-09-15 14:35:34,396 - INFO - Registering Directory # 0 C:\Data  
+2023-09-15 14:35:34,398 - INFO - Registering Directory # 1 C:\Data\Behavioral Health  
+2023-09-15 14:35:34,399 - INFO - Registering Directory # 2 C:\Data\brfss_cdc  
+2023-09-15 14:35:34,400 - INFO - Registering Directory # 3 C:\Data\Chronic Kidney Disease  
+2023-09-15 14:35:34,401 - INFO - Registering Directory # 4 C:\Data\Chronic_Disease_Indicators  
+2023-09-15 14:35:34,402 - INFO - Registering Directory # 5 C:\Data\Data_Science_Data  
+2023-09-15 14:35:34,403 - INFO - Registering Directory # 6 C:\Data\Data_Science_Data\Projects  
+2023-09-15 14:35:34,404 - INFO - Registering Directory # 7 C:\Data\Data_Science_Data\Projects\AIHS  
+2023-09-15 14:35:34,405 - INFO - Registering Directory # 8 C:\Data\Data_Science_Data\Projects\AIHS\Architecture  
+2023-09-15 14:35:34,408 - INFO - Registering Directory # 9 C:\Data\Data_Science_Data\Projects\AIHS\Chatbot Initial Conversation - Botsociety_files  
+2023-09-15 14:35:34,410 - INFO - Registering Directory # 10 C:\Data\Data_Science_Data\Test_Data  
+2023-09-15 14:35:34,411 - INFO - Registering Directory # 11 C:\Data\Data_Science_Data\Test_Data\India Health Stats  
+2023-09-15 14:35:34,412 - INFO - Registering Directory # 12 C:\Data\Data_Science_Data\Test_Data\Medicare  
+2023-09-15 14:35:34,413 - INFO - Registering Directory # 13 C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot  
+2023-09-15 14:35:34,414 - INFO - Registering Directory # 14 C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data  
+2023-09-15 14:35:34,415 - INFO - Registering Directory # 15 C:\Data\Data_Science_Data\Test_Data\nhanes  
+2023-09-15 14:35:34,416 - INFO - Registering Directory # 16 C:\Data\Diabetes  
+2023-09-15 14:35:34,417 - INFO - Registering Directory # 17 C:\Data\Heart  
+2023-09-15 14:35:34,418 - INFO - Registering Directory # 18 C:\Data\lakeview_pdf  
+2023-09-15 14:35:34,418 - INFO - Registering Directory # 19 C:\Data\tableau  
+2023-09-15 14:35:34,420 - INFO - Registering Directory # 20 C:\Data\titanic  
+2023-09-15 14:35:34,422 - INFO - Registering Directory # 21 C:\Data\world health statististics  
+2023-09-15 14:35:34,423 - INFO - Registering Directory # 22 C:\Data\world news data  
+2023-09-15 14:35:34,424 - INFO - Registering Directory # 23 C:\Data\world_cities  
+2023-09-15 14:35:34,425 - INFO - Registering Directory # 24 C:\Data\world_happiness  
+2023-09-15 14:35:34,426 - INFO - Registering Directory # 25 C:\Data\world_indicators  
+2023-09-15 14:35:38,050 - INFO - Step 2 Done - Listing all Registered data Directories: 
+2023-09-15 14:35:43,923 - INFO - Registering Directories in excel File:C:/working_directory/temporary_data/Import_Directory_Registry.xlsx 
+2023-09-15 14:36:46,843 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:36:46,855 - INFO - CSV Total#1 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:36:46,859 - INFO - CSV Total#2 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:36:46,864 - INFO - CSV Total#3 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:36:46,865 - INFO - CSV Total#4 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:36:46,866 - INFO - CSV Total#5 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:36:46,868 - INFO - CSV Total#6 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:36:46,870 - INFO - CSV Total#7 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:36:46,872 - INFO - CSV Total#8 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:36:46,873 - INFO - CSV Total#9 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:36:46,874 - INFO - CSV Total#10 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:36:46,875 - INFO - CSV Total#11 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:36:46,876 - INFO - CSV Total#12 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:36:46,877 - INFO - CSV Total#13 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:36:46,879 - INFO - CSV Total#14 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:36:46,880 - INFO - CSV Total#15 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:36:46,882 - INFO - CSV Total#16 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:36:46,885 - INFO - CSV Total#17 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:36:46,886 - INFO - CSV Total#18 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:36:46,888 - INFO - CSV Total#19 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:36:46,890 - INFO - CSV Total#20 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:36:46,891 - INFO - CSV Total#21 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:36:46,892 - INFO - CSV Total#22 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:36:46,894 - INFO - CSV Total#23 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:36:46,895 - INFO - CSV Total#24 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:36:46,896 - INFO - CSV Total#25 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:36:46,897 - INFO - CSV Total#26 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:36:46,898 - INFO - CSV Total#27 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:36:46,900 - INFO - CSV Total#28 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:36:46,900 - INFO - CSV Total#29 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:36:46,902 - INFO - CSV Total#30 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:36:46,905 - INFO - CSV Total#31 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:36:46,906 - INFO - CSV Total#32 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:36:46,908 - INFO - CSV Total#33 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:36:46,909 - INFO - CSV Total#34 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:36:46,911 - INFO - CSV Total#35 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:36:46,913 - INFO - CSV Total#36 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:36:46,914 - INFO - CSV Total#37 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:36:46,916 - INFO - CSV Total#38 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:36:46,917 - INFO - CSV Total#39 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:36:46,917 - INFO - CSV Total#40 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:36:46,919 - INFO - CSV Total#41 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:36:46,920 - INFO - CSV Total#42 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:36:46,921 - INFO - CSV Total#43 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:36:46,922 - INFO - CSV Total#44 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:36:46,923 - INFO - CSV Total#45 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:36:46,925 - INFO - CSV Total#46 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:36:46,926 - INFO - CSV Total#47 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:36:46,927 - INFO - CSV Total#48 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:36:46,928 - INFO - CSV Total#49 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,929 - INFO - CSV Total#50 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,930 - INFO - CSV Total#51 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:36:46,931 - INFO - CSV Total#52 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:36:46,932 - INFO - CSV Total#53 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:36:46,933 - INFO - CSV Total#54 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:36:46,935 - INFO - CSV Total#55 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:36:46,936 - INFO - CSV Total#56 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,937 - INFO - CSV Total#57 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:36:46,939 - INFO - CSV Total#58 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:36:46,940 - INFO - CSV Total#59 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:36:46,942 - INFO - CSV Total#60 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:36:46,943 - INFO - CSV Total#61 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:36:46,944 - INFO - CSV Total#62 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:36:46,946 - INFO - CSV Total#63 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:36:46,947 - INFO - CSV Total#64 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:36:46,948 - INFO - CSV Total#65 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:36:46,949 - INFO - CSV Total#66 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:36:46,950 - INFO - CSV Total#67 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:36:46,952 - INFO - CSV Total#68 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:36:46,953 - INFO - CSV Total#69 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:36:46,954 - INFO - CSV Total#70 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:36:46,955 - INFO - CSV Total#71 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:36:46,956 - INFO - CSV Total#72 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:36:46,957 - INFO - CSV Total#73 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:36:46,958 - INFO - CSV Total#74 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,959 - INFO - CSV Total#75 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:36:46,961 - INFO - CSV Total#76 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:36:46,962 - INFO - CSV Total#77 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:36:46,963 - INFO - CSV Total#78 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:36:46,964 - INFO - CSV Total#79 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:36:46,965 - INFO - CSV Total#80 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:36:46,966 - INFO - CSV Total#81 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:36:46,968 - INFO - CSV Total#82 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:36:46,969 - INFO - CSV Total#83 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:36:46,970 - INFO - CSV Total#84 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:36:46,972 - INFO - CSV Total#85 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:36:46,973 - INFO - CSV Total#86 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:39:05,373 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:39:05,374 - INFO - CSV Total#87 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:39:05,375 - INFO - CSV Total#88 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:39:05,377 - INFO - CSV Total#89 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:39:05,378 - INFO - CSV Total#90 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:39:05,379 - INFO - CSV Total#91 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:39:05,380 - INFO - CSV Total#92 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:39:05,381 - INFO - CSV Total#93 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:39:05,381 - INFO - CSV Total#94 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:39:05,382 - INFO - CSV Total#95 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:39:05,383 - INFO - CSV Total#96 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:39:05,384 - INFO - CSV Total#97 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:39:05,385 - INFO - CSV Total#98 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:39:05,386 - INFO - CSV Total#99 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:39:05,387 - INFO - CSV Total#100 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:39:05,388 - INFO - CSV Total#101 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:39:05,389 - INFO - CSV Total#102 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:39:05,391 - INFO - CSV Total#103 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:39:05,392 - INFO - CSV Total#104 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:39:05,393 - INFO - CSV Total#105 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:39:05,394 - INFO - CSV Total#106 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:39:05,395 - INFO - CSV Total#107 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:39:05,396 - INFO - CSV Total#108 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:39:05,397 - INFO - CSV Total#109 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:39:05,398 - INFO - CSV Total#110 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:39:05,399 - INFO - CSV Total#111 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:39:05,400 - INFO - CSV Total#112 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:39:05,401 - INFO - CSV Total#113 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:39:05,403 - INFO - CSV Total#114 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:39:05,404 - INFO - CSV Total#115 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:39:05,405 - INFO - CSV Total#116 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:39:05,406 - INFO - CSV Total#117 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:39:05,407 - INFO - CSV Total#118 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:39:05,408 - INFO - CSV Total#119 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:39:05,409 - INFO - CSV Total#120 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:39:05,410 - INFO - CSV Total#121 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:39:05,411 - INFO - CSV Total#122 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:39:05,412 - INFO - CSV Total#123 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:39:05,413 - INFO - CSV Total#124 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:39:05,414 - INFO - CSV Total#125 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:39:05,415 - INFO - CSV Total#126 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:39:05,416 - INFO - CSV Total#127 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:39:05,417 - INFO - CSV Total#128 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:39:05,418 - INFO - CSV Total#129 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:39:05,419 - INFO - CSV Total#130 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:39:05,420 - INFO - CSV Total#131 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:39:05,421 - INFO - CSV Total#132 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:39:05,422 - INFO - CSV Total#133 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:39:05,423 - INFO - CSV Total#134 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:39:05,424 - INFO - CSV Total#135 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,425 - INFO - CSV Total#136 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,426 - INFO - CSV Total#137 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:39:05,427 - INFO - CSV Total#138 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:39:05,428 - INFO - CSV Total#139 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:39:05,429 - INFO - CSV Total#140 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:39:05,430 - INFO - CSV Total#141 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:39:05,431 - INFO - CSV Total#142 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,432 - INFO - CSV Total#143 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:39:05,433 - INFO - CSV Total#144 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:39:05,434 - INFO - CSV Total#145 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:39:05,435 - INFO - CSV Total#146 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:39:05,436 - INFO - CSV Total#147 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:39:05,437 - INFO - CSV Total#148 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:39:05,438 - INFO - CSV Total#149 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:39:05,439 - INFO - CSV Total#150 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:39:05,440 - INFO - CSV Total#151 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:39:05,441 - INFO - CSV Total#152 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:39:05,442 - INFO - CSV Total#153 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:39:05,443 - INFO - CSV Total#154 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:39:05,444 - INFO - CSV Total#155 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:39:05,445 - INFO - CSV Total#156 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:39:05,446 - INFO - CSV Total#157 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:39:05,447 - INFO - CSV Total#158 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:39:05,448 - INFO - CSV Total#159 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:39:05,448 - INFO - CSV Total#160 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,450 - INFO - CSV Total#161 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:39:05,451 - INFO - CSV Total#162 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:39:05,453 - INFO - CSV Total#163 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:39:05,454 - INFO - CSV Total#164 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:39:05,455 - INFO - CSV Total#165 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:39:05,455 - INFO - CSV Total#166 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:39:05,456 - INFO - CSV Total#167 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:39:05,457 - INFO - CSV Total#168 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:39:05,458 - INFO - CSV Total#169 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:39:05,459 - INFO - CSV Total#170 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:39:05,460 - INFO - CSV Total#171 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:39:05,461 - INFO - CSV Total#172 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery The total process duration was:327.53
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Stop Time = 2023-09-15 14:39:43
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:327.53
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2023-09-15 14:39:43,956 - INFO - END data_discovery =============================================
+2023-09-15 14:41:55,169 - INFO - Step 1 - Establish the root Directory
+2023-09-15 14:41:55,169 - INFO - The root directory to walk is : C:\Data
+2023-09-15 14:42:04,994 - INFO - Step 2 - Walk the directory structure  to discover all data directories
+2023-09-15 14:42:04,996 - INFO - Registering Directory # 0 C:\Data  
+2023-09-15 14:42:04,997 - INFO - Registering Directory # 1 C:\Data\Behavioral Health  
+2023-09-15 14:42:04,998 - INFO - Registering Directory # 2 C:\Data\brfss_cdc  
+2023-09-15 14:42:04,999 - INFO - Registering Directory # 3 C:\Data\Chronic Kidney Disease  
+2023-09-15 14:42:05,000 - INFO - Registering Directory # 4 C:\Data\Chronic_Disease_Indicators  
+2023-09-15 14:42:05,001 - INFO - Registering Directory # 5 C:\Data\Data_Science_Data  
+2023-09-15 14:42:05,001 - INFO - Registering Directory # 6 C:\Data\Data_Science_Data\Projects  
+2023-09-15 14:42:05,002 - INFO - Registering Directory # 7 C:\Data\Data_Science_Data\Projects\AIHS  
+2023-09-15 14:42:05,003 - INFO - Registering Directory # 8 C:\Data\Data_Science_Data\Projects\AIHS\Architecture  
+2023-09-15 14:42:05,004 - INFO - Registering Directory # 9 C:\Data\Data_Science_Data\Projects\AIHS\Chatbot Initial Conversation - Botsociety_files  
+2023-09-15 14:42:05,005 - INFO - Registering Directory # 10 C:\Data\Data_Science_Data\Test_Data  
+2023-09-15 14:42:05,006 - INFO - Registering Directory # 11 C:\Data\Data_Science_Data\Test_Data\India Health Stats  
+2023-09-15 14:42:05,007 - INFO - Registering Directory # 12 C:\Data\Data_Science_Data\Test_Data\Medicare  
+2023-09-15 14:42:05,007 - INFO - Registering Directory # 13 C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot  
+2023-09-15 14:42:05,008 - INFO - Registering Directory # 14 C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data  
+2023-09-15 14:42:05,009 - INFO - Registering Directory # 15 C:\Data\Data_Science_Data\Test_Data\nhanes  
+2023-09-15 14:42:05,010 - INFO - Registering Directory # 16 C:\Data\Diabetes  
+2023-09-15 14:42:05,011 - INFO - Registering Directory # 17 C:\Data\Heart  
+2023-09-15 14:42:05,012 - INFO - Registering Directory # 18 C:\Data\lakeview_pdf  
+2023-09-15 14:42:05,012 - INFO - Registering Directory # 19 C:\Data\tableau  
+2023-09-15 14:42:05,013 - INFO - Registering Directory # 20 C:\Data\titanic  
+2023-09-15 14:42:05,014 - INFO - Registering Directory # 21 C:\Data\world health statististics  
+2023-09-15 14:42:05,015 - INFO - Registering Directory # 22 C:\Data\world news data  
+2023-09-15 14:42:05,016 - INFO - Registering Directory # 23 C:\Data\world_cities  
+2023-09-15 14:42:05,016 - INFO - Registering Directory # 24 C:\Data\world_happiness  
+2023-09-15 14:42:05,017 - INFO - Registering Directory # 25 C:\Data\world_indicators  
+2023-09-15 14:42:08,643 - INFO - Step 2 Done - Listing all Registered data Directories: 
+2023-09-15 14:42:48,468 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:42:48,469 - INFO - CSV Total#1 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:42:48,470 - INFO - CSV Total#2 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:42:48,471 - INFO - CSV Total#3 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:42:48,472 - INFO - CSV Total#4 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:42:48,473 - INFO - CSV Total#5 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:42:48,474 - INFO - CSV Total#6 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:42:48,475 - INFO - CSV Total#7 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:42:48,476 - INFO - CSV Total#8 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:42:48,477 - INFO - CSV Total#9 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:42:48,478 - INFO - CSV Total#10 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:42:48,479 - INFO - CSV Total#11 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:42:48,480 - INFO - CSV Total#12 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:42:48,481 - INFO - CSV Total#13 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:42:48,482 - INFO - CSV Total#14 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:42:48,483 - INFO - CSV Total#15 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:42:48,484 - INFO - CSV Total#16 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:42:48,486 - INFO - CSV Total#17 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:42:48,487 - INFO - CSV Total#18 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:42:48,489 - INFO - CSV Total#19 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:42:48,490 - INFO - CSV Total#20 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:42:48,490 - INFO - CSV Total#21 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:42:48,491 - INFO - CSV Total#22 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:42:48,492 - INFO - CSV Total#23 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:42:48,493 - INFO - CSV Total#24 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:42:48,495 - INFO - CSV Total#25 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:42:48,496 - INFO - CSV Total#26 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:42:48,497 - INFO - CSV Total#27 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:42:48,498 - INFO - CSV Total#28 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:42:48,499 - INFO - CSV Total#29 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:42:48,500 - INFO - CSV Total#30 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:42:48,501 - INFO - CSV Total#31 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:42:48,502 - INFO - CSV Total#32 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:42:48,503 - INFO - CSV Total#33 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:42:48,504 - INFO - CSV Total#34 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:42:48,505 - INFO - CSV Total#35 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:42:48,506 - INFO - CSV Total#36 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:42:48,507 - INFO - CSV Total#37 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:42:48,509 - INFO - CSV Total#38 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:42:48,510 - INFO - CSV Total#39 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:42:48,511 - INFO - CSV Total#40 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:42:48,512 - INFO - CSV Total#41 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:42:48,513 - INFO - CSV Total#42 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:42:48,514 - INFO - CSV Total#43 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:42:48,515 - INFO - CSV Total#44 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:42:48,516 - INFO - CSV Total#45 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:42:48,517 - INFO - CSV Total#46 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:42:48,518 - INFO - CSV Total#47 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:42:48,519 - INFO - CSV Total#48 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:42:48,520 - INFO - CSV Total#49 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,521 - INFO - CSV Total#50 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,522 - INFO - CSV Total#51 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:42:48,523 - INFO - CSV Total#52 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:42:48,524 - INFO - CSV Total#53 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:42:48,525 - INFO - CSV Total#54 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:42:48,526 - INFO - CSV Total#55 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:42:48,527 - INFO - CSV Total#56 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,528 - INFO - CSV Total#57 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:42:48,529 - INFO - CSV Total#58 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:42:48,530 - INFO - CSV Total#59 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:42:48,531 - INFO - CSV Total#60 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:42:48,532 - INFO - CSV Total#61 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:42:48,533 - INFO - CSV Total#62 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:42:48,534 - INFO - CSV Total#63 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:42:48,535 - INFO - CSV Total#64 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:42:48,536 - INFO - CSV Total#65 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:42:48,537 - INFO - CSV Total#66 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:42:48,538 - INFO - CSV Total#67 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:42:48,539 - INFO - CSV Total#68 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:42:48,540 - INFO - CSV Total#69 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:42:48,541 - INFO - CSV Total#70 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:42:48,542 - INFO - CSV Total#71 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:42:48,543 - INFO - CSV Total#72 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:42:48,544 - INFO - CSV Total#73 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:42:48,544 - INFO - CSV Total#74 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,546 - INFO - CSV Total#75 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:42:48,547 - INFO - CSV Total#76 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:42:48,548 - INFO - CSV Total#77 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:42:48,549 - INFO - CSV Total#78 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:42:48,550 - INFO - CSV Total#79 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:42:48,551 - INFO - CSV Total#80 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:42:48,552 - INFO - CSV Total#81 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:42:48,553 - INFO - CSV Total#82 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:42:48,553 - INFO - CSV Total#83 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:42:48,554 - INFO - CSV Total#84 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:42:48,555 - INFO - CSV Total#85 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:42:48,556 - INFO - CSV Total#86 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:43:01,107 - INFO - PERFORMANCE data_discovery The total process duration was:524.68
+2023-09-15 14:43:01,107 - INFO - PERFORMANCE data_discovery Stop Time = 2023-09-15 14:43:01
+2023-09-15 14:43:01,108 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:524.68
+2023-09-15 14:43:01,108 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2023-09-15 14:43:01,108 - INFO - END data_discovery =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2023-09-15 14:34:16,423 - INFO - START data_discovery =============================================
+2023-09-15 14:34:16,423 - INFO - START data_discovery Start Time = 2023-09-15 14:34:16
+2023-09-15 14:34:16,423 - INFO - data_discovery Step 0 - Initialize the configuration file parser
+2023-09-15 14:34:16,445 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\josep\\anaconda3\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2023-09-15 14:34:16,446 - INFO - Using writeable comtypes cache directory: 'C:\Users\josep\anaconda3\lib\site-packages\comtypes\gen'
+2023-09-15 14:34:22,073 - INFO - Process data_discovery Step 0 - Initializing and starting Process.
+2023-09-15 14:35:17,741 - INFO - Step 1 - Establish the root Directory
+2023-09-15 14:35:17,741 - INFO - The root directory to walk is : C:\Data
+2023-09-15 14:35:34,381 - INFO - Step 2 - Walk the directory structure  to discover all data directories
+2023-09-15 14:35:34,396 - INFO - Registering Directory # 0 C:\Data  
+2023-09-15 14:35:34,398 - INFO - Registering Directory # 1 C:\Data\Behavioral Health  
+2023-09-15 14:35:34,399 - INFO - Registering Directory # 2 C:\Data\brfss_cdc  
+2023-09-15 14:35:34,400 - INFO - Registering Directory # 3 C:\Data\Chronic Kidney Disease  
+2023-09-15 14:35:34,401 - INFO - Registering Directory # 4 C:\Data\Chronic_Disease_Indicators  
+2023-09-15 14:35:34,402 - INFO - Registering Directory # 5 C:\Data\Data_Science_Data  
+2023-09-15 14:35:34,403 - INFO - Registering Directory # 6 C:\Data\Data_Science_Data\Projects  
+2023-09-15 14:35:34,404 - INFO - Registering Directory # 7 C:\Data\Data_Science_Data\Projects\AIHS  
+2023-09-15 14:35:34,405 - INFO - Registering Directory # 8 C:\Data\Data_Science_Data\Projects\AIHS\Architecture  
+2023-09-15 14:35:34,408 - INFO - Registering Directory # 9 C:\Data\Data_Science_Data\Projects\AIHS\Chatbot Initial Conversation - Botsociety_files  
+2023-09-15 14:35:34,410 - INFO - Registering Directory # 10 C:\Data\Data_Science_Data\Test_Data  
+2023-09-15 14:35:34,411 - INFO - Registering Directory # 11 C:\Data\Data_Science_Data\Test_Data\India Health Stats  
+2023-09-15 14:35:34,412 - INFO - Registering Directory # 12 C:\Data\Data_Science_Data\Test_Data\Medicare  
+2023-09-15 14:35:34,413 - INFO - Registering Directory # 13 C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot  
+2023-09-15 14:35:34,414 - INFO - Registering Directory # 14 C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data  
+2023-09-15 14:35:34,415 - INFO - Registering Directory # 15 C:\Data\Data_Science_Data\Test_Data\nhanes  
+2023-09-15 14:35:34,416 - INFO - Registering Directory # 16 C:\Data\Diabetes  
+2023-09-15 14:35:34,417 - INFO - Registering Directory # 17 C:\Data\Heart  
+2023-09-15 14:35:34,418 - INFO - Registering Directory # 18 C:\Data\lakeview_pdf  
+2023-09-15 14:35:34,418 - INFO - Registering Directory # 19 C:\Data\tableau  
+2023-09-15 14:35:34,420 - INFO - Registering Directory # 20 C:\Data\titanic  
+2023-09-15 14:35:34,422 - INFO - Registering Directory # 21 C:\Data\world health statististics  
+2023-09-15 14:35:34,423 - INFO - Registering Directory # 22 C:\Data\world news data  
+2023-09-15 14:35:34,424 - INFO - Registering Directory # 23 C:\Data\world_cities  
+2023-09-15 14:35:34,425 - INFO - Registering Directory # 24 C:\Data\world_happiness  
+2023-09-15 14:35:34,426 - INFO - Registering Directory # 25 C:\Data\world_indicators  
+2023-09-15 14:35:38,050 - INFO - Step 2 Done - Listing all Registered data Directories: 
+2023-09-15 14:35:43,923 - INFO - Registering Directories in excel File:C:/working_directory/temporary_data/Import_Directory_Registry.xlsx 
+2023-09-15 14:36:46,843 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:36:46,855 - INFO - CSV Total#1 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:36:46,859 - INFO - CSV Total#2 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:36:46,864 - INFO - CSV Total#3 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:36:46,865 - INFO - CSV Total#4 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:36:46,866 - INFO - CSV Total#5 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:36:46,868 - INFO - CSV Total#6 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:36:46,870 - INFO - CSV Total#7 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:36:46,872 - INFO - CSV Total#8 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:36:46,873 - INFO - CSV Total#9 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:36:46,874 - INFO - CSV Total#10 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:36:46,875 - INFO - CSV Total#11 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:36:46,876 - INFO - CSV Total#12 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:36:46,877 - INFO - CSV Total#13 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:36:46,879 - INFO - CSV Total#14 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:36:46,880 - INFO - CSV Total#15 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:36:46,882 - INFO - CSV Total#16 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:36:46,885 - INFO - CSV Total#17 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:36:46,886 - INFO - CSV Total#18 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:36:46,888 - INFO - CSV Total#19 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:36:46,890 - INFO - CSV Total#20 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:36:46,891 - INFO - CSV Total#21 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:36:46,892 - INFO - CSV Total#22 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:36:46,894 - INFO - CSV Total#23 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:36:46,895 - INFO - CSV Total#24 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:36:46,896 - INFO - CSV Total#25 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:36:46,897 - INFO - CSV Total#26 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:36:46,898 - INFO - CSV Total#27 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:36:46,900 - INFO - CSV Total#28 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:36:46,900 - INFO - CSV Total#29 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:36:46,902 - INFO - CSV Total#30 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:36:46,905 - INFO - CSV Total#31 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:36:46,906 - INFO - CSV Total#32 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:36:46,908 - INFO - CSV Total#33 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:36:46,909 - INFO - CSV Total#34 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:36:46,911 - INFO - CSV Total#35 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:36:46,913 - INFO - CSV Total#36 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:36:46,914 - INFO - CSV Total#37 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:36:46,916 - INFO - CSV Total#38 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:36:46,917 - INFO - CSV Total#39 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:36:46,917 - INFO - CSV Total#40 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:36:46,919 - INFO - CSV Total#41 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:36:46,920 - INFO - CSV Total#42 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:36:46,921 - INFO - CSV Total#43 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:36:46,922 - INFO - CSV Total#44 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:36:46,923 - INFO - CSV Total#45 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:36:46,925 - INFO - CSV Total#46 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:36:46,926 - INFO - CSV Total#47 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:36:46,927 - INFO - CSV Total#48 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:36:46,928 - INFO - CSV Total#49 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,929 - INFO - CSV Total#50 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,930 - INFO - CSV Total#51 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:36:46,931 - INFO - CSV Total#52 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:36:46,932 - INFO - CSV Total#53 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:36:46,933 - INFO - CSV Total#54 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:36:46,935 - INFO - CSV Total#55 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:36:46,936 - INFO - CSV Total#56 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,937 - INFO - CSV Total#57 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:36:46,939 - INFO - CSV Total#58 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:36:46,940 - INFO - CSV Total#59 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:36:46,942 - INFO - CSV Total#60 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:36:46,943 - INFO - CSV Total#61 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:36:46,944 - INFO - CSV Total#62 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:36:46,946 - INFO - CSV Total#63 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:36:46,947 - INFO - CSV Total#64 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:36:46,948 - INFO - CSV Total#65 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:36:46,949 - INFO - CSV Total#66 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:36:46,950 - INFO - CSV Total#67 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:36:46,952 - INFO - CSV Total#68 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:36:46,953 - INFO - CSV Total#69 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:36:46,954 - INFO - CSV Total#70 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:36:46,955 - INFO - CSV Total#71 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:36:46,956 - INFO - CSV Total#72 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:36:46,957 - INFO - CSV Total#73 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:36:46,958 - INFO - CSV Total#74 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:36:46,959 - INFO - CSV Total#75 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:36:46,961 - INFO - CSV Total#76 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:36:46,962 - INFO - CSV Total#77 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:36:46,963 - INFO - CSV Total#78 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:36:46,964 - INFO - CSV Total#79 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:36:46,965 - INFO - CSV Total#80 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:36:46,966 - INFO - CSV Total#81 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:36:46,968 - INFO - CSV Total#82 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:36:46,969 - INFO - CSV Total#83 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:36:46,970 - INFO - CSV Total#84 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:36:46,972 - INFO - CSV Total#85 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:36:46,973 - INFO - CSV Total#86 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:39:05,373 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:39:05,374 - INFO - CSV Total#87 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:39:05,375 - INFO - CSV Total#88 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:39:05,377 - INFO - CSV Total#89 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:39:05,378 - INFO - CSV Total#90 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:39:05,379 - INFO - CSV Total#91 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:39:05,380 - INFO - CSV Total#92 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:39:05,381 - INFO - CSV Total#93 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:39:05,381 - INFO - CSV Total#94 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:39:05,382 - INFO - CSV Total#95 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:39:05,383 - INFO - CSV Total#96 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:39:05,384 - INFO - CSV Total#97 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:39:05,385 - INFO - CSV Total#98 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:39:05,386 - INFO - CSV Total#99 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:39:05,387 - INFO - CSV Total#100 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:39:05,388 - INFO - CSV Total#101 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:39:05,389 - INFO - CSV Total#102 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:39:05,391 - INFO - CSV Total#103 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:39:05,392 - INFO - CSV Total#104 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:39:05,393 - INFO - CSV Total#105 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:39:05,394 - INFO - CSV Total#106 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:39:05,395 - INFO - CSV Total#107 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:39:05,396 - INFO - CSV Total#108 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:39:05,397 - INFO - CSV Total#109 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:39:05,398 - INFO - CSV Total#110 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:39:05,399 - INFO - CSV Total#111 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:39:05,400 - INFO - CSV Total#112 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:39:05,401 - INFO - CSV Total#113 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:39:05,403 - INFO - CSV Total#114 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:39:05,404 - INFO - CSV Total#115 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:39:05,405 - INFO - CSV Total#116 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:39:05,406 - INFO - CSV Total#117 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:39:05,407 - INFO - CSV Total#118 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:39:05,408 - INFO - CSV Total#119 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:39:05,409 - INFO - CSV Total#120 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:39:05,410 - INFO - CSV Total#121 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:39:05,411 - INFO - CSV Total#122 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:39:05,412 - INFO - CSV Total#123 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:39:05,413 - INFO - CSV Total#124 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:39:05,414 - INFO - CSV Total#125 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:39:05,415 - INFO - CSV Total#126 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:39:05,416 - INFO - CSV Total#127 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:39:05,417 - INFO - CSV Total#128 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:39:05,418 - INFO - CSV Total#129 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:39:05,419 - INFO - CSV Total#130 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:39:05,420 - INFO - CSV Total#131 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:39:05,421 - INFO - CSV Total#132 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:39:05,422 - INFO - CSV Total#133 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:39:05,423 - INFO - CSV Total#134 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:39:05,424 - INFO - CSV Total#135 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,425 - INFO - CSV Total#136 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,426 - INFO - CSV Total#137 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:39:05,427 - INFO - CSV Total#138 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:39:05,428 - INFO - CSV Total#139 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:39:05,429 - INFO - CSV Total#140 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:39:05,430 - INFO - CSV Total#141 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:39:05,431 - INFO - CSV Total#142 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,432 - INFO - CSV Total#143 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:39:05,433 - INFO - CSV Total#144 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:39:05,434 - INFO - CSV Total#145 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:39:05,435 - INFO - CSV Total#146 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:39:05,436 - INFO - CSV Total#147 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:39:05,437 - INFO - CSV Total#148 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:39:05,438 - INFO - CSV Total#149 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:39:05,439 - INFO - CSV Total#150 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:39:05,440 - INFO - CSV Total#151 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:39:05,441 - INFO - CSV Total#152 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:39:05,442 - INFO - CSV Total#153 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:39:05,443 - INFO - CSV Total#154 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:39:05,444 - INFO - CSV Total#155 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:39:05,445 - INFO - CSV Total#156 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:39:05,446 - INFO - CSV Total#157 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:39:05,447 - INFO - CSV Total#158 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:39:05,448 - INFO - CSV Total#159 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:39:05,448 - INFO - CSV Total#160 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:39:05,450 - INFO - CSV Total#161 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:39:05,451 - INFO - CSV Total#162 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:39:05,453 - INFO - CSV Total#163 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:39:05,454 - INFO - CSV Total#164 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:39:05,455 - INFO - CSV Total#165 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:39:05,455 - INFO - CSV Total#166 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:39:05,456 - INFO - CSV Total#167 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:39:05,457 - INFO - CSV Total#168 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:39:05,458 - INFO - CSV Total#169 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:39:05,459 - INFO - CSV Total#170 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:39:05,460 - INFO - CSV Total#171 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:39:05,461 - INFO - CSV Total#172 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery The total process duration was:327.53
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Stop Time = 2023-09-15 14:39:43
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:327.53
+2023-09-15 14:39:43,956 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2023-09-15 14:39:43,956 - INFO - END data_discovery =============================================
+2023-09-15 14:41:55,169 - INFO - Step 1 - Establish the root Directory
+2023-09-15 14:41:55,169 - INFO - The root directory to walk is : C:\Data
+2023-09-15 14:42:04,994 - INFO - Step 2 - Walk the directory structure  to discover all data directories
+2023-09-15 14:42:04,996 - INFO - Registering Directory # 0 C:\Data  
+2023-09-15 14:42:04,997 - INFO - Registering Directory # 1 C:\Data\Behavioral Health  
+2023-09-15 14:42:04,998 - INFO - Registering Directory # 2 C:\Data\brfss_cdc  
+2023-09-15 14:42:04,999 - INFO - Registering Directory # 3 C:\Data\Chronic Kidney Disease  
+2023-09-15 14:42:05,000 - INFO - Registering Directory # 4 C:\Data\Chronic_Disease_Indicators  
+2023-09-15 14:42:05,001 - INFO - Registering Directory # 5 C:\Data\Data_Science_Data  
+2023-09-15 14:42:05,001 - INFO - Registering Directory # 6 C:\Data\Data_Science_Data\Projects  
+2023-09-15 14:42:05,002 - INFO - Registering Directory # 7 C:\Data\Data_Science_Data\Projects\AIHS  
+2023-09-15 14:42:05,003 - INFO - Registering Directory # 8 C:\Data\Data_Science_Data\Projects\AIHS\Architecture  
+2023-09-15 14:42:05,004 - INFO - Registering Directory # 9 C:\Data\Data_Science_Data\Projects\AIHS\Chatbot Initial Conversation - Botsociety_files  
+2023-09-15 14:42:05,005 - INFO - Registering Directory # 10 C:\Data\Data_Science_Data\Test_Data  
+2023-09-15 14:42:05,006 - INFO - Registering Directory # 11 C:\Data\Data_Science_Data\Test_Data\India Health Stats  
+2023-09-15 14:42:05,007 - INFO - Registering Directory # 12 C:\Data\Data_Science_Data\Test_Data\Medicare  
+2023-09-15 14:42:05,007 - INFO - Registering Directory # 13 C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot  
+2023-09-15 14:42:05,008 - INFO - Registering Directory # 14 C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data  
+2023-09-15 14:42:05,009 - INFO - Registering Directory # 15 C:\Data\Data_Science_Data\Test_Data\nhanes  
+2023-09-15 14:42:05,010 - INFO - Registering Directory # 16 C:\Data\Diabetes  
+2023-09-15 14:42:05,011 - INFO - Registering Directory # 17 C:\Data\Heart  
+2023-09-15 14:42:05,012 - INFO - Registering Directory # 18 C:\Data\lakeview_pdf  
+2023-09-15 14:42:05,012 - INFO - Registering Directory # 19 C:\Data\tableau  
+2023-09-15 14:42:05,013 - INFO - Registering Directory # 20 C:\Data\titanic  
+2023-09-15 14:42:05,014 - INFO - Registering Directory # 21 C:\Data\world health statististics  
+2023-09-15 14:42:05,015 - INFO - Registering Directory # 22 C:\Data\world news data  
+2023-09-15 14:42:05,016 - INFO - Registering Directory # 23 C:\Data\world_cities  
+2023-09-15 14:42:05,016 - INFO - Registering Directory # 24 C:\Data\world_happiness  
+2023-09-15 14:42:05,017 - INFO - Registering Directory # 25 C:\Data\world_indicators  
+2023-09-15 14:42:08,643 - INFO - Step 2 Done - Listing all Registered data Directories: 
+2023-09-15 14:42:48,468 - INFO - Step 3 - Discover and Register all CSV files to import 
+2023-09-15 14:42:48,469 - INFO - CSV Total#1 File #1 filename: C:\Data\Behavioral Health\2011.csv  
+2023-09-15 14:42:48,470 - INFO - CSV Total#2 File #2 filename: C:\Data\Behavioral Health\2012.csv  
+2023-09-15 14:42:48,471 - INFO - CSV Total#3 File #3 filename: C:\Data\Behavioral Health\2013.csv  
+2023-09-15 14:42:48,472 - INFO - CSV Total#4 File #4 filename: C:\Data\Behavioral Health\2014.csv  
+2023-09-15 14:42:48,473 - INFO - CSV Total#5 File #5 filename: C:\Data\Behavioral Health\2015.csv  
+2023-09-15 14:42:48,474 - INFO - CSV Total#6 File #6 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Historical_Questions.csv  
+2023-09-15 14:42:48,475 - INFO - CSV Total#7 File #7 filename: C:\Data\Behavioral Health\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:42:48,476 - INFO - CSV Total#8 File #1 filename: C:\Data\brfss_cdc\2011.csv  
+2023-09-15 14:42:48,477 - INFO - CSV Total#9 File #2 filename: C:\Data\brfss_cdc\2012.csv  
+2023-09-15 14:42:48,478 - INFO - CSV Total#10 File #3 filename: C:\Data\brfss_cdc\2013.csv  
+2023-09-15 14:42:48,479 - INFO - CSV Total#11 File #4 filename: C:\Data\brfss_cdc\2014.csv  
+2023-09-15 14:42:48,480 - INFO - CSV Total#12 File #5 filename: C:\Data\brfss_cdc\2015.csv  
+2023-09-15 14:42:48,481 - INFO - CSV Total#13 File #6 filename: C:\Data\brfss_cdc\Behavioral_Risk_Factor_Surveillance_System__BRFSS__Age-Adjusted_Prevalence_Data__2011_to_present_.csv  
+2023-09-15 14:42:48,482 - INFO - CSV Total#14 File #7 filename: C:\Data\brfss_cdc\BRFSS_2015.csv  
+2023-09-15 14:42:48,483 - INFO - CSV Total#15 File #1 filename: C:\Data\Chronic Kidney Disease\kidney_disease.csv  
+2023-09-15 14:42:48,484 - INFO - CSV Total#16 File #1 filename: C:\Data\Chronic_Disease_Indicators\U.S._Chronic_Disease_Indicators.csv  
+2023-09-15 14:42:48,486 - INFO - CSV Total#17 File #1 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_districtwise.csv  
+2023-09-15 14:42:48,487 - INFO - CSV Total#18 File #2 filename: C:\Data\Data_Science_Data\Test_Data\India Health Stats\Key_indicator_statewise.csv  
+2023-09-15 14:42:48,489 - INFO - CSV Total#19 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_Pat.csv  
+2023-09-15 14:42:48,490 - INFO - CSV Total#20 File #2 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Inpatient_provdr.csv  
+2023-09-15 14:42:48,490 - INFO - CSV Total#21 File #3 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_Pat.csv  
+2023-09-15 14:42:48,491 - INFO - CSV Total#22 File #4 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Outpatient_provdr.csv  
+2023-09-15 14:42:48,492 - INFO - CSV Total#23 File #5 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Patient_history_samp.csv  
+2023-09-15 14:42:48,493 - INFO - CSV Total#24 File #6 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Review_patient_history_samp.csv  
+2023-09-15 14:42:48,495 - INFO - CSV Total#25 File #7 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Rreview_transaction_coo.csv  
+2023-09-15 14:42:48,496 - INFO - CSV Total#26 File #8 filename: C:\Data\Data_Science_Data\Test_Data\Medicare\Transaction_coo.csv  
+2023-09-15 14:42:48,497 - INFO - CSV Total#27 File #1 filename: C:\Data\Data_Science_Data\Test_Data\Mental_Health_FAQ_for_Chatbot\Mental_Health_FAQ.csv  
+2023-09-15 14:42:48,498 - INFO - CSV Total#28 File #1 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\lowbirthweight.csv  
+2023-09-15 14:42:48,499 - INFO - CSV Total#29 File #2 filename: C:\Data\Data_Science_Data\Test_Data\New_Kaggle_Data\Meonatl Mortality UNIGME-2021.csv  
+2023-09-15 14:42:48,500 - INFO - CSV Total#30 File #1 filename: C:\Data\Diabetes\dg.csv  
+2023-09-15 14:42:48,501 - INFO - CSV Total#31 File #2 filename: C:\Data\Diabetes\diabetes.csv  
+2023-09-15 14:42:48,502 - INFO - CSV Total#32 File #3 filename: C:\Data\Diabetes\Diabetes_Pima_Indians.csv  
+2023-09-15 14:42:48,503 - INFO - CSV Total#33 File #1 filename: C:\Data\Heart\heart.csv  
+2023-09-15 14:42:48,504 - INFO - CSV Total#34 File #1 filename: C:\Data\titanic\titanic.csv  
+2023-09-15 14:42:48,505 - INFO - CSV Total#35 File #2 filename: C:\Data\titanic\titanic_test.csv  
+2023-09-15 14:42:48,506 - INFO - CSV Total#36 File #1 filename: C:\Data\world health statististics\30-70cancerChdEtc.csv  
+2023-09-15 14:42:48,507 - INFO - CSV Total#37 File #2 filename: C:\Data\world health statististics\adolescentBirthRate.csv  
+2023-09-15 14:42:48,509 - INFO - CSV Total#38 File #3 filename: C:\Data\world health statististics\airPollutionDeathRate.csv  
+2023-09-15 14:42:48,510 - INFO - CSV Total#39 File #4 filename: C:\Data\world health statististics\alcoholSubstanceAbuse.csv  
+2023-09-15 14:42:48,511 - INFO - CSV Total#40 File #5 filename: C:\Data\world health statististics\atLeastBasicSanitizationServices.csv  
+2023-09-15 14:42:48,512 - INFO - CSV Total#41 File #6 filename: C:\Data\world health statististics\basicDrinkingWaterServices.csv  
+2023-09-15 14:42:48,513 - INFO - CSV Total#42 File #7 filename: C:\Data\world health statististics\basicHandWashing.csv  
+2023-09-15 14:42:48,514 - INFO - CSV Total#43 File #8 filename: C:\Data\world health statististics\birthAttendedBySkilledPersonal.csv  
+2023-09-15 14:42:48,515 - INFO - CSV Total#44 File #9 filename: C:\Data\world health statististics\cleanFuelAndTech.csv  
+2023-09-15 14:42:48,516 - INFO - CSV Total#45 File #10 filename: C:\Data\world health statististics\crudeSuicideRates.csv  
+2023-09-15 14:42:48,517 - INFO - CSV Total#46 File #11 filename: C:\Data\world health statististics\dataAvailibilityForUhc.csv  
+2023-09-15 14:42:48,518 - INFO - CSV Total#47 File #12 filename: C:\Data\world health statististics\dentists.csv  
+2023-09-15 14:42:48,519 - INFO - CSV Total#48 File #13 filename: C:\Data\world health statististics\eliminateViolenceAgainstWomen.csv  
+2023-09-15 14:42:48,520 - INFO - CSV Total#49 File #14 filename: C:\Data\world health statististics\HALElifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,521 - INFO - CSV Total#50 File #15 filename: C:\Data\world health statististics\HALeWHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,522 - INFO - CSV Total#51 File #16 filename: C:\Data\world health statististics\hepatitusBsurfaceAntigen.csv  
+2023-09-15 14:42:48,523 - INFO - CSV Total#52 File #17 filename: C:\Data\world health statististics\incedenceOfMalaria.csv  
+2023-09-15 14:42:48,524 - INFO - CSV Total#53 File #18 filename: C:\Data\world health statististics\incedenceOfTuberculosis.csv  
+2023-09-15 14:42:48,525 - INFO - CSV Total#54 File #19 filename: C:\Data\world health statististics\infantMortalityRate.csv  
+2023-09-15 14:42:48,526 - INFO - CSV Total#55 File #20 filename: C:\Data\world health statististics\interventionAgianstNTDs.csv  
+2023-09-15 14:42:48,527 - INFO - CSV Total#56 File #21 filename: C:\Data\world health statististics\lifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,528 - INFO - CSV Total#57 File #22 filename: C:\Data\world health statististics\maternalMortalityRatio.csv  
+2023-09-15 14:42:48,529 - INFO - CSV Total#58 File #23 filename: C:\Data\world health statististics\medicalDoctors.csv  
+2023-09-15 14:42:48,530 - INFO - CSV Total#59 File #24 filename: C:\Data\world health statististics\mortalityRatePoisoning.csv  
+2023-09-15 14:42:48,531 - INFO - CSV Total#60 File #25 filename: C:\Data\world health statististics\mortalityRateUnsafeWash.csv  
+2023-09-15 14:42:48,532 - INFO - CSV Total#61 File #26 filename: C:\Data\world health statististics\neonatalMortalityRate.csv  
+2023-09-15 14:42:48,533 - INFO - CSV Total#62 File #27 filename: C:\Data\world health statististics\newHivInfections.csv  
+2023-09-15 14:42:48,534 - INFO - CSV Total#63 File #28 filename: C:\Data\world health statististics\nursingAndMidwife.csv  
+2023-09-15 14:42:48,535 - INFO - CSV Total#64 File #29 filename: C:\Data\world health statististics\ofHaleInLifeExpectancy.csv  
+2023-09-15 14:42:48,536 - INFO - CSV Total#65 File #30 filename: C:\Data\world health statististics\pharmacists.csv  
+2023-09-15 14:42:48,537 - INFO - CSV Total#66 File #31 filename: C:\Data\world health statististics\population10SDG3.8.2.csv  
+2023-09-15 14:42:48,538 - INFO - CSV Total#67 File #32 filename: C:\Data\world health statististics\population25SDG3.8.2.csv  
+2023-09-15 14:42:48,539 - INFO - CSV Total#68 File #33 filename: C:\Data\world health statististics\reproductiveAgeWomen.csv  
+2023-09-15 14:42:48,540 - INFO - CSV Total#69 File #34 filename: C:\Data\world health statististics\roadTrafficDeaths.csv  
+2023-09-15 14:42:48,541 - INFO - CSV Total#70 File #35 filename: C:\Data\world health statististics\safelySanitization.csv  
+2023-09-15 14:42:48,542 - INFO - CSV Total#71 File #36 filename: C:\Data\world health statististics\tobaccoAge15.csv  
+2023-09-15 14:42:48,543 - INFO - CSV Total#72 File #37 filename: C:\Data\world health statististics\uhcCoverage.csv  
+2023-09-15 14:42:48,544 - INFO - CSV Total#73 File #38 filename: C:\Data\world health statististics\under5MortalityRate.csv  
+2023-09-15 14:42:48,544 - INFO - CSV Total#74 File #39 filename: C:\Data\world health statististics\WHOregionLifeExpectancyAtBirth.csv  
+2023-09-15 14:42:48,546 - INFO - CSV Total#75 File #1 filename: C:\Data\world news data\WorldNewsData.csv  
+2023-09-15 14:42:48,547 - INFO - CSV Total#76 File #1 filename: C:\Data\world_cities\worldcitiespop.csv  
+2023-09-15 14:42:48,548 - INFO - CSV Total#77 File #1 filename: C:\Data\world_happiness\world-happiness-report-2021.csv  
+2023-09-15 14:42:48,549 - INFO - CSV Total#78 File #2 filename: C:\Data\world_happiness\world-happiness-report.csv  
+2023-09-15 14:42:48,550 - INFO - CSV Total#79 File #3 filename: C:\Data\world_happiness\world_happiness_2015.csv  
+2023-09-15 14:42:48,551 - INFO - CSV Total#80 File #4 filename: C:\Data\world_happiness\world_happiness_2016.csv  
+2023-09-15 14:42:48,552 - INFO - CSV Total#81 File #5 filename: C:\Data\world_happiness\world_happiness_2017.csv  
+2023-09-15 14:42:48,553 - INFO - CSV Total#82 File #6 filename: C:\Data\world_happiness\world_happiness_2018.csv  
+2023-09-15 14:42:48,553 - INFO - CSV Total#83 File #7 filename: C:\Data\world_happiness\world_happiness_2019.csv  
+2023-09-15 14:42:48,554 - INFO - CSV Total#84 File #8 filename: C:\Data\world_happiness\world_happiness_2020.csv  
+2023-09-15 14:42:48,555 - INFO - CSV Total#85 File #9 filename: C:\Data\world_happiness\world_happiness_2021.csv  
+2023-09-15 14:42:48,556 - INFO - CSV Total#86 File #10 filename: C:\Data\world_happiness\world_happiness_2022.csv  
+2023-09-15 14:43:01,107 - INFO - PERFORMANCE data_discovery The total process duration was:524.68
+2023-09-15 14:43:01,107 - INFO - PERFORMANCE data_discovery Stop Time = 2023-09-15 14:43:01
+2023-09-15 14:43:01,108 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:524.68
+2023-09-15 14:43:01,108 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2023-09-15 14:43:01,108 - INFO - END data_discovery =============================================
+2023-09-15 14:43:05,772 - INFO - PERFORMANCE data_discovery The total process duration was:529.35
+2023-09-15 14:43:05,772 - INFO - PERFORMANCE data_discovery Stop Time = 2023-09-15 14:43:05
+2023-09-15 14:43:05,772 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:529.35
+2023-09-15 14:43:05,772 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2023-09-15 14:43:05,772 - INFO - END data_discovery =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
