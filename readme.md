@@ -48,5 +48,5 @@ To get started with the **Data Discovery** solution repository, follow these ste
 ![Brand](brand.png)
     
 ## Deliverables or Figures
- ![additional_image](solution_stacked_sign.png)  <br>
+ 
     
