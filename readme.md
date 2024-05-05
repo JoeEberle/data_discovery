@@ -1,4 +1,6 @@
 
+![Image image_filename](solution_sign.png)
+
 # Data Discovery - Finds ALL the valuable data assets on your system and registers them. 
 Finds ALL the valuable data assets on your system and registers them. 
 
@@ -9,8 +11,6 @@ Welcome to the solution **Data Discovery** - an example for your projects
 Finds ALL the valuable data assets on your system and registers them. 
 
 ![Image image_filename](sample.png)
-
-![Image image_filename](solution_sign.png)
 
 ## Solution Features
 - Easy to understand and use  
