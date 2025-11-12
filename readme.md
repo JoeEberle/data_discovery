@@ -4,21 +4,11 @@
 
 ## Finds ALL the valuable data assets on your system and registers them. 
 
-    
-![Solution](code.png)
-
-    
-
-Welcome to the solution **Data Discovery** - an example for your projects
+    ![Image image_filename](code.png)
+Welcome to the solution **Data Discovery** 
 
 Finds ALL the valuable data assets on your system and registers them. 
-
-![Solution](code.png)
-
-    
-![Solution](code.png)
-
-    
+![Image image_filename](code.png)![Image image_filename](sample.png)
 ## Getting Started
 
 The goal of this solution is to **Jump Start** your development and have you up and running in 30 minutes. 
