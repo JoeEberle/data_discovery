@@ -910,3 +910,25 @@
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
                                                                                                                         
+                                                                                                                        
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2026-01-12 12:27:31,387 - INFO - START data_discovery =============================================
+2026-01-12 12:27:31,387 - INFO - START data_discovery Start Time = 2026-01-12 12:27:31
+2026-01-12 12:27:31,387 - INFO - data_discovery Step 0 - Initialize the configuration file parser
+2026-01-12 12:27:31,460 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\josep\\anaconda3\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-01-12 12:27:31,460 - INFO - Using writeable comtypes cache directory: 'C:\Users\josep\anaconda3\Lib\site-packages\comtypes\gen'
+2026-01-12 12:27:38,120 - INFO - Process data_discovery Step 0 - Initializing and starting Process.
+2026-01-12 12:27:41,632 - INFO - Step 1 - Establish the root Directory
+2026-01-12 12:27:41,632 - INFO - The root directory to walk is : C:\Data
+2026-01-12 12:27:46,459 - INFO - Step 2 - Walk the directory structure  to discover all data directories
+2026-01-12 12:27:50,450 - INFO - Step 2 Done - Listing all Registered data Directories: 
+2026-01-12 12:27:50,469 - INFO - Registering Directories in excel File:C:/working_directory/temporary_data/Import_Directory_Registry.xlsx 
+2026-01-12 12:33:16,317 - INFO - Step 3 - Discover and Register all CSV files to import 
+2026-01-12 12:34:12,542 - INFO - PERFORMANCE data_discovery The total process duration was:401.15
+2026-01-12 12:34:12,542 - INFO - PERFORMANCE data_discovery Stop Time = 2026-01-12 12:34:12
+2026-01-12 12:34:12,542 - INFO - PERFORMANCE data_discovery Medium process duration greater than 3 minutes:401.15
+2026-01-12 12:34:12,542 - INFO - PERFORMANCE data_discovery Performance optimization is optional
+2026-01-12 12:34:12,543 - INFO - END data_discovery =============================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                                                                                        
